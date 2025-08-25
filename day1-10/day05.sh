@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Task 5: SELinux
 # Install the required SELinux packages. Permanently disable SELinux for the time being; 
 # it will be re-enabled after necessary configuration changes. 
 # No need to reboot the server, as a scheduled maintenance reboot is already planned for tonight.
@@ -12,4 +13,4 @@ sudo vi /etc/selinux/config
 
 SELINUX=disabled
 
-grep SELINUX= /etc/selinux/config
+# grep SELINUX= /etc/selinux/config

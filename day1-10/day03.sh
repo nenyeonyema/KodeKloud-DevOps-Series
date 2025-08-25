@@ -1,6 +1,6 @@
 #!bin/bash
 
-# Disable direct SSH root login on all app servers
+# Task 3: Disable direct SSH root login on all app servers
 
 ssh user1@stapp01
 ssh user2@stapp02
